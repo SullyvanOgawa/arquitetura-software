@@ -1,0 +1,19 @@
+{
+  "name": "gerenciador-tarefas-academicas",
+  "version": "1.0.0",
+  "description": "Aplicação Node.js com padrão MVC para organizar tarefas acadêmicas",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": ["nodejs", "express", "mvc", "solid"],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.11"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
